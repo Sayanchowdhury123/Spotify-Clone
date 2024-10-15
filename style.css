@@ -1,0 +1,846 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 8px 1px 8px 8px;
+    background-color: black;
+    height: 226vh;
+    
+    
+}
+.logo1{
+    fill: white;
+}
+.home1{
+    fill: white;
+    
+}
+
+.album svg{
+    width: 24px;
+    fill: white;
+    
+    
+    
+    
+}
+.album button{
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+}
+.album{
+    border-left: 1px solid white;
+    padding-left: 10px;
+}
+
+
+
+.home svg{
+    width: 48px;
+    background-color: #1f1f1f;
+    padding: 12px;
+    border-radius: 50%;
+    
+}
+.search svg{
+    width: 24px;
+    
+
+}
+
+nav input{
+    width: 423px;
+    padding: 18px 64px 12px 48px;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+    background-color: #1f1f1f;
+
+}
+.install svg{
+    width: 16px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.install a .i{
+    color: white;
+
+}
+.install a{
+    text-decoration: none;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bell svg{
+    width: 16px;
+    fill: gray;
+    border: none;
+}
+.bell{
+    background-color: black;
+    border: none;
+    
+}
+
+.account {
+    background-color: #1f1f1f;
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
+    
+    
+
+}
+.account span{
+    background-color: rgb(245, 113, 135);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+
+    
+}
+.account p{
+    position: relative;
+    top: 7px;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    
+
+}
+nav .logo{
+    position: relative;
+    left: 18px;
+
+}
+nav input{
+
+    position: relative;
+    left: 413px;
+ }
+
+ nav .home{
+    position: relative;
+    left: 425px;
+ }
+
+ nav .search{
+    position: relative;
+    left: 447px;
+    z-index: 3;
+    top: 2px;
+ }
+ .search svg{
+    fill: gray;
+ }
+
+ .album{
+    position: relative;
+    left: 362px;
+    z-index: 3;
+ }
+
+ .ex button{
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    font-size: 16px;
+
+
+ }
+
+.account{
+    position: relative;
+    left: 775px;
+    top: 15px;
+}
+
+.bell{
+    position: relative;
+    left: 753px;
+    top: 28px;
+}
+
+.bell svg{
+    width: 17px;
+}
+.install a{
+    position: relative;
+    left: 711px;
+    top: 22px;
+}
+.ex{
+    position: relative;
+    
+    top: -26px;
+    left: 526px;
+    
+}
+.do svg{
+    position: relative;
+    top: 3px;
+}
+
+
+.sidebar{
+    height: 600px;
+    width: 419px;
+    background: #121212;
+    border-radius: 10px;
+    
+    padding: 10px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+
+}
+.lia img{
+    width: 18px;
+    
+    
+}
+
+.lia p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color: grey;
+}
+.icon img{
+    width: 18px;
+    
+}
+
+.fl{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    gap: 168px;
+    margin-top: 10px;
+}
+.lia p{
+    display: inline-block;
+    padding-left: 10px;
+}
+.b{
+    margin-right: 10px;
+}
+.playlist{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-top: 1.9rem;
+    
+    height: 133px;
+}
+
+.playlist .p1{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    
+}
+.p2{
+ color: white;
+ margin-bottom: 25px;
+}
+.playlist button{
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: 700;
+    border: none;
+
+}
+
+.browse{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-top: 1.9rem;
+    
+    height: 133px;
+}
+.browse .b1{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.browse .b2{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.browse button{
+    color: black;
+    background-color:white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: 700;
+    border: none;
+
+}
+.mainn{
+    display: flex;
+    gap: 7px;
+}
+
+
+.main-p{
+    
+    
+    width: 1092px;
+    background: #1f1f1f;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.navi .a{
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: none;
+}
+.navi .b{
+
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: none;
+   background-color: #ffffff1a;
+   color: white;
+   margin: 0;
+   margin-right: 3px;
+}
+
+.navi{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.navi button{
+    margin-right: 3px;
+}
+.re a{
+    position: relative;
+    left: 23px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.hot{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 156px;
+    position: relative;
+    left: 26px;
+    
+}
+.hot img{
+    width: 156px;
+    border-radius: 10px;
+   
+}
+.hot .po1{ 
+    width: 156px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.po2{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+}
+.to p{
+    position: relative;
+    left: 23px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.karan img{
+    width: 156px;
+    border-radius: 10px;
+
+}
+.karan p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+}
+.karan{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 156px;
+    position: relative;
+    left: 26px;
+}
+
+.try {
+display: flex;
+justify-content: space-between;
+position: relative;
+left: 2px;
+padding: 0px 26px;
+
+}
+
+.try p{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.ry p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+}
+.poster img{
+    width: 156px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    margin-left: 4px;
+    bottom: 23px;
+    
+}
+.pos{
+    width: 156px;
+  
+   
+}
+.pos p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+}
+.fe p{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 23px;
+
+}
+.l{
+    fill: white;
+}
+.socials svg{
+    width: 16px;
+}
+.foo{
+    display: flex;
+    gap: 40px;
+    
+
+}
+.foo .w{
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.fo .w + p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.w+ p +p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.w +p+p+p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.w + p + p+p+p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.w + p + p+p+p+p{
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+
+
+.foot{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 30px;
+
+}
+.socials{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 281px;
+    
+    
+}
+.socials .insta {
+  
+    
+    background-color:  #ffffff0d;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+
+    
+}
+.insta svg{
+    position: relative;
+    top: 11px;
+    left: 12px;
+}
+
+.socials .x{
+    background-color:  #ffffff0d;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.x svg{
+    position: relative;
+    top: 11px;
+    left: 12px;
+}
+
+.socials .face{
+     
+    background-color:  #ffffff0d;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.face svg{
+    position: relative;
+    top: 11px;
+    left: 12px;
+    
+}
+
+.legal{
+    width: 1028px;
+    display: flex;
+    position: relative;
+    left: 30px;
+    justify-content: space-evenly;
+    gap: 331px;
+    font-size: 15px;
+    color: rgb(172, 172, 172);
+    
+    border-top: 1px solid gainsboro ;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+
+}
+.legal .footers{
+    display: flex;
+    gap:20px ;
+    position: relative;
+    left: -12px;
+
+}
+
+
+.plus .imag img{
+    width: 56px;
+    
+}
+.plus svg{
+    width: 16px;
+}
+.p{
+    fill: white;
+}
+footer{
+height: 72px;
+width: 1485px;
+margin-top: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+gap: 158px;
+
+
+}
+.plus{
+    display: flex;
+    gap: 15px;
+    
+}
+.desc .d1{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 3px;
+}
+.d2{
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+}
+
+.ico svg{
+    width: 16px;
+}
+.pi{
+    fill: rgb(172, 172, 172); 
+}
+.pio{
+    fill: black;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.pl {
+    background-color: white;
+    width: 32px;
+    border-radius: 50%;
+    height: 32px;
+    position: relative;
+    top: -7px;
+    
+    
+    
+}
+.pl svg{
+    position: relative;
+    top:7px ;
+    left: 8px;
+}
+.play{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 236px;
+}
+.progress .bar1{
+    width: 512px;
+    height: 4px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+.bar2{
+    background-color: white;
+    height: 4px;
+    width: 10%;
+    border-radius: 10px;
+}
+.progress .zer{
+    color:#d4d3d3;
+    font-size: 14px;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    right: 216px;
+}
+
+.l svg{
+    width: 16px;
+}
+.last-s{
+    fill: rgb(172, 172, 172); ;
+}
+.last{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    left: 13px;
+    
+    
+}
+.last .bar{
+    width: 93px;
+    height: 4px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
+.barr{
+    background-color: white;
+    height: 4px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: -3px;
+    z-index: 9;
+    background:black;
+    align-items: center;
+    width: 1504px;
+    height: 90px;
+
+    
+    
+}
+.mainn{
+    position: relative;
+    bottom: 16px;
+}
+.sidebar{
+    height: 669px;
+}
+.plus{
+    position: relative;
+    left: 1px;
+}
+.last{
+    gap: 15px;
+    left: -9px;
+}
+
+.sidebar{
+    position: fixed;
+
+}
+.main-p{
+    position: relative;
+    left: 426px;
+    
+}
+
+
+
+.mainn{
+    position: relative;
+    top: 68px;
+}
+.main-p{
+    height: 1739px;
+}
+.oo{
+    position: fixed;
+    top: -10px;
+    background-color: black;
+    z-index: 1000;
+    width: 1505px;
+    height: 85px;
+}
+body{
+    width: 1505px;
+}
+.hot{
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 178px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hot:hover{
+  background-color: #ffffff1a;
+}
+.karan{
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 178px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.karan:hover{
+    background-color: #ffffff1a;
+  }
+
+
+  .pos{
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 178px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .pos:hover{
+    background-color: #ffffff1a;
+  }
+  .poster{
+    gap: 0;
+  }
+
+  .re a:hover{
+    text-decoration: underline white;
+  }
+
+.to p:hover{
+    text-decoration: underline white;
+}
+.t:hover{
+
+    text-decoration: underline white;
+}
+
+.fe:hover{
+
+    text-decoration: underline white;
+}
+footer{
+    gap: 153px;
+}
+.main-p{
+    height: 1828px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
